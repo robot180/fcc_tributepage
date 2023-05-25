@@ -1,0 +1,22 @@
+* {
+    background-color: rgb(32, 32, 32);
+}
+
+main {
+    height: 100%;
+    color: rgb(250, 250, 156);
+    /* display: flex; */
+}
+
+.image {
+    background-color: rgb(59, 59, 59);
+    width:99%; 
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.timeline {
+    margin: 0px auto;
+    max-width: 750px;
+}

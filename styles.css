@@ -1,22 +1,101 @@
 * {
+background-color: rgb(59, 59, 59);
+}
+
+
+.debug {
+    border: 2px solid blue;
+}
+
+.debug2 {
+    border: 2px solid red;
+}
+
+
+.debug3 {
+    border: 4px solid green;
+}
+
+main, main * {
     background-color: rgb(32, 32, 32);
 }
-
 main {
     height: 100%;
+    width: 95%;
     color: rgb(250, 250, 156);
     /* display: flex; */
+    margin: 0px auto;
 }
 
-.image {
+#img-div {
+    background-color: rgb(59, 59, 59);
+    width:99%; 
+    display: flex;
+    margin: 0px auto;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+#image {
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+/* .image {
     background-color: rgb(59, 59, 59);
     width:99%; 
     display: flex;
     justify-content: center;
     margin: 0px auto;
-}
+} */
 
 .timeline {
     margin: 0px auto;
     max-width: 750px;
+    text-align: left;
+}
+
+.timeline p {
+    margin: 2rem 0px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+.banner h1, p, div {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.banner p {
+    font-size: 1.25rem;
+}
+
+.banner, image {
+    position: sticky;
+    top: 0px;
+}
+
+.learnmore {
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+a:visited {
+    color:  rgb(129, 129, 52);
+}
+
+span {
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
